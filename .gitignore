@@ -1,0 +1,7 @@
+__pycache__
+.venv
+dist
+build
+marian_translate_pipeline_onnx.egg-info
+models
+
