@@ -1,0 +1,5 @@
+sentencepiece
+transformers
+huggingface_hub
+onnxruntime
+numpy

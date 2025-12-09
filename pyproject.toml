@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marian-translate-pipeline-onnx"
+version = "0.1.0"
+description = "MarianMT ONNX translation pipeline with custom SentencePiece tokenizer"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "sentencepiece",
+    "transformers",
+    "huggingface_hub",
+    "onnxruntime",
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/techwithsergiu/marian-translate-pipeline-onnx"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "huggingface_onnx*",
+    "onnx_backend*",
+    "sentencepiece_backend*",
+]
