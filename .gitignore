@@ -5,3 +5,5 @@ build
 marian_translate_pipeline_onnx.egg-info
 models
 
+deps-scan
+docs
